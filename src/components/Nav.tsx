@@ -1,10 +1,11 @@
 import "./Nav.css"
+import logo from '../assets/logo.png'
 
 function Nav() {
   return (
     <nav className="nav-wrapper">
       <div className="nav-content">
-        <img className="logo" src='/public/images/AC_logo.png' alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
         <ul>
           <li>
             <a className="menu-item">Home</a>
