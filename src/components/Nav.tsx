@@ -1,8 +1,20 @@
-import "./Nav.css"
-import logo from '../assets/logo.png'
+import "./Nav.css";
+import logo from '../assets/logo.png';
+import { useState } from "react";
+import MobileNav from "./MobileNav/MobileNav";
 
 function Nav() {
+
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  }
+
   return (
+    <>
+    <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+
     <nav className="nav-wrapper">
       <div className="nav-content">
         <img className="logo" src={logo} alt="logo" />
@@ -24,13 +36,16 @@ function Nav() {
           </button>
         </ul>
 
-          <button className="menu-btn" onClick={()=>{}}>
-            <span className="material-symbols-outlined">
-            menu
+          <button className="menu-btn" onClick={toggleMenu}>
+            <span 
+              className="material-symbols-outlined"
+              style={{ fontSize: "1.8rem"}}>
+            {openMenu ? "close" : "menu"}
             </span>
         </button>
       </div>
     </nav>
+  </>
   );
 }
 
