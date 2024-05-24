@@ -1,7 +1,7 @@
 import "./Nav.css";
-import logo from '../assets/logo.png';
+import logo from '../../assets/logo.png';
 import { useState } from "react";
-import MobileNav from "./MobileNav/MobileNav";
+import MobileNav from "../MobileNav/MobileNav";
 
 function Nav() {
 
