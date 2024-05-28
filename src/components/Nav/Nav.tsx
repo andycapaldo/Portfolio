@@ -1,7 +1,8 @@
 import "./Nav.css";
 import logo from '../../assets/logo.png';
 import { useState } from "react";
-import MobileNav from "../MobileNav/MobileNav";
+import MobileNav from "./MobileNav/MobileNav";
+import { Link } from 'react-scroll';
 
 
 function Nav() {
@@ -21,16 +22,18 @@ function Nav() {
         <img className="logo" src={logo} alt="logo" />
         <ul>
           <li>
-            <a className="menu-item">Home</a>
+            <Link activeClass="active" to="hero" smooth spy offset={-175} className="menu-item">Home</Link>
           </li>
           <li>
-            <a className="menu-item">Skills</a>
+            <Link activeClass="active" to="skills"
+            smooth spy offset={-250} className="menu-item">Skills</Link>
           </li>
           <li>
-            <a className="menu-item">Projects</a>
+            <Link activeClass="active" to="work-exp"
+            smooth spy offset={-250} className="menu-item">Work Experience</Link>
           </li>
           <li>
-            <a className="menu-item">Contact Me</a>
+            <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact Me</Link>
           </li>
           <button className="contact-btn" onClick={() => {}}>
             Hire Me

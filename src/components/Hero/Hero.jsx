@@ -9,7 +9,7 @@ import heroImage from '../../assets/hero.png';
 
 const Hero = () => {
 return (
-        <section className='hero-container'>
+        <section id="hero" className='hero-container'>
             <div className='hero-content'>
                 <h2>Building Digital Experiences That Inspire</h2>
                 <p>

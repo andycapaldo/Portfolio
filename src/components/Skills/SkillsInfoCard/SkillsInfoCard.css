@@ -21,18 +21,18 @@
     padding: 2rem;
 }
 
-.skills-info {
+.skill-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.skills-info p {
+.skill-info p {
     font-size: 1rem;
-    font-weight: 500rem;
+    font-weight: 500;
 }
 
-.skills-info .percentage {
+.skill-info .percentage {
     color: #dd8cfa
 }
 
@@ -58,11 +58,15 @@
         font-size: 1.1rem;
     }
 
-    .skills-info p {
+    .skill-info p {
         font-size: 0.9rem;
     }
 
     .skills-info-content {
         padding: 1.5rem;
+    }
+
+    .skill-progress-bg, .skill-progress {
+        height: 0.3rem;
     }
 }
