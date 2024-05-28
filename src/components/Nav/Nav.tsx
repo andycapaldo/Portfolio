@@ -3,6 +3,7 @@ import logo from '../../assets/logo.png';
 import { useState } from "react";
 import MobileNav from "../MobileNav/MobileNav";
 
+
 function Nav() {
 
   const [openMenu, setOpenMenu] = useState(false);
@@ -23,7 +24,7 @@ function Nav() {
             <a className="menu-item">Home</a>
           </li>
           <li>
-            <a className="menu-item">About</a>
+            <a className="menu-item">Skills</a>
           </li>
           <li>
             <a className="menu-item">Projects</a>
