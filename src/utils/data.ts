@@ -8,10 +8,10 @@ export const SKILLS = [
         title: 'Frontend',
         icon: frontend,
         skills: [
-            { skill: "HTML5", percentage: "80%" },
-            { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
+            { skill: "HTML5", percentage: "85%" },
+            { skill: "CSS3 (Sass/SCSS)", percentage: "75%" },
             { skill: "JavaScript", percentage: "90%" },
-            { skill: "React.js", percentage: "80%" },
+            { skill: "React.js", percentage: "85%" },
         ],
     },
     {

@@ -33,7 +33,7 @@
 }
 
 .skill-info .percentage {
-    color: #dd8cfa
+    color: #dd8cfa;
 }
 
 .skill-progress-bg {
@@ -59,7 +59,7 @@
     }
 
     .skill-info p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .skills-info-content {

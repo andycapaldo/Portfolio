@@ -18,7 +18,7 @@ return (
         <h5>Technical Proficiency</h5>
 
         <div className='skills-content'>
-            <div className='skills'></div>
+            <div className='skills'>
                 {SKILLS.map((item) => (
                     <SkillCard
                     key={item.title}
@@ -29,6 +29,7 @@ return (
                         handleSelectSkill(item);
                     }} />
                 ))}
+            </div>
             <div className='skills-info'>
                 <SkillsInfoCard
                     heading={selectedSkill.title}
