@@ -3,10 +3,37 @@ import logo from '../../../assets/logo.png';
 
 function MobileNav({ isOpen, toggleMenu }) {
 
+    const smoothScroll = (targetY, duration) => {
+        const startY = window.scrollY;
+        const distance = targetY - startY;
+        let startTime = null;
+
+        const step = (currentTime) => {
+            if (!startTime) startTime = currentTime;
+            const timeElapsed = currentTime - startTime;
+            const progress = Math.min(timeElapsed / duration, 1);
+            const ease = progress * (2 - progress);
+
+            window.scrollTo(0, startY + distance * ease);
+
+            if (timeElapsed < duration) {
+                window.requestAnimationFrame(step);
+            }
+        };
+
+        window.requestAnimationFrame(step);
+    };
+
     const handleScroll = (sectionId) => {
-        if(isOpen) toggleMenu();
-        document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
-      };
+        if (isOpen) toggleMenu();
+        setTimeout(() => {
+            const element = document.getElementById(sectionId);
+            const yOffset = -175;
+            const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+
+            smoothScroll(y, 1200);
+        }, 600);
+    };
 
     return (
         <>
