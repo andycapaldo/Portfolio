@@ -2,6 +2,16 @@ import frontend from '../assets/frontend.png';
 import backend from '../assets/backend.png';
 import tools from '../assets/tools.png';
 import softSkills from '../assets/soft-skills.png';
+import zengenda_one from '../assets/Zengenda/Zengenda_1.png';
+import zengenda_two from '../assets/Zengenda/Zengenda_2.png';
+import zengenda_three from '../assets/Zengenda/Zengenda_3.png';
+import zengenda_four from '../assets/Zengenda/Zengenda_4.png';
+import zengenda_five from '../assets/Zengenda/Zengenda_5.png';
+import cocktail_one from '../assets/CocktailLounge/CocktailLounge_1.png';
+import cocktail_two from '../assets/CocktailLounge/CocktailLounge_2.png';
+import cocktail_three from '../assets/CocktailLounge/CocktailLounge_3.png';
+import cocktail_four from '../assets/CocktailLounge/CocktailLounge_4.png';
+import cocktail_five from '../assets/CocktailLounge/CocktailLounge_5.png';
 
 export const SKILLS = [
     {
@@ -42,7 +52,7 @@ export const SKILLS = [
             { skill: "Attention to Detail", percentage: "75%" },
         ],
     },
-]
+];
 
 export const WORK_EXPERIENCE = [
     {
@@ -66,6 +76,33 @@ export const WORK_EXPERIENCE = [
             "Improved a CLI-based Blackjack card game built in Python by utlizing OOP principles.",
             "Utilized Git and Github as a source control system, contributed to group projects by creating and merging pull requests.",
             "Created a trivia app in React by integrating a 3rd-party API and styled components.",
+        ],
+    },
+];
+
+export const PROJECTS = [
+    {
+        title: "Zengenda",
+        description: "An ultimate life organizer and motivational coach. An app that not only streamlines your tasks, but also fules your drive to conquer them. This app redefines overwhelming lists as a sequence of empowering steps, placing equal emphasis on mental wellness and productivity.",
+        techStack: ["React Native", "TypeScript", "Node.js", "Expo", "Firebase"],
+        images: [
+            zengenda_one, 
+            zengenda_two, 
+            zengenda_three, 
+            zengenda_four, 
+            zengenda_five
+        ],
+    },
+    {
+        title: "The Cocktail Lounge",
+        description: "A forum platform for cocktail enthusiasts. Explore over 600+ cocktail creations from the CocktailDB's database, check out our user's own cocktail creations, and create your own cocktail recipes.",
+        techStack: ["React", "TypeScript", "Node.js", "Flask", "Python", "SQLAlchemy"],
+        images: [
+            cocktail_one, 
+            cocktail_two, 
+            cocktail_three, 
+            cocktail_four, 
+            cocktail_five
         ],
     },
 ];

@@ -1,0 +1,41 @@
+.carousel-wrapper {
+    position: relative;
+}
+
+.carousel-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust as needed */
+    background-color: #000; /* Add background to ensure visibility */
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow-left span,
+.arrow-right span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.arrow-left {
+    left: -3rem;
+}
+
+.arrow-right {
+    right: -3rem;
+}

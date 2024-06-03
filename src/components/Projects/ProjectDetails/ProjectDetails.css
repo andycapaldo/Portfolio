@@ -1,0 +1,26 @@
+.project-details {
+    padding: 1rem;
+    flex: 1;
+}
+
+.project-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-details p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-details ul li {
+    background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%);
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}

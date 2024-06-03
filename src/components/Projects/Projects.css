@@ -1,0 +1,32 @@
+.projects-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.projects-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.project-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .project {
+        flex-direction: row;
+    }
+    .project-inner {
+        flex-direction: column;
+    }
+}
