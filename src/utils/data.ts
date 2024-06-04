@@ -92,6 +92,8 @@ export const PROJECTS = [
             zengenda_four, 
             zengenda_five
         ],
+        liveProject: "https://expo.dev/preview/update?message=Updated%20packages&updateRuntimeVersion=1.0.0&createdAt=2024-06-04T00%3A10%3A30.657Z&slug=exp&projectId=02fa799b-28f7-470e-be36-6c0ef7e0f360&group=7b300713-8b3b-4339-8c53-8da07f0a9c71",
+        gitHub: "https://github.com/andycapaldo/Zengenda",
     },
     {
         title: "The Cocktail Lounge",
@@ -104,5 +106,7 @@ export const PROJECTS = [
             cocktail_four, 
             cocktail_five
         ],
+        liveProject: "https://vermillion-pudding-29bfed.netlify.app/",
+        gitHub: "https://github.com/andycapaldo/The-Cocktail-Lounge-React",
     },
 ];

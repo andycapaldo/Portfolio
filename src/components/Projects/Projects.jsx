@@ -19,6 +19,8 @@ const Projects = () => {
                                 title={project.title}
                                 description={project.description}
                                 techStack={project.techStack}
+                                liveProject={project.liveProject}
+                                gitHub={project.gitHub}
                             />
                         </div>
                     </div>
