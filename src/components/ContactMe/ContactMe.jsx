@@ -16,7 +16,8 @@ return (
                     text="andrewcapaldo23@gmail.com" />
                     <ContactInfoCard 
                     iconUrl={gitHub}
-                    text="https://github.com/andycapaldo" />
+                    text="https://github.com/andycapaldo"
+                    link={'https://github.com/andycapaldo'}/>
                 </div>
                 <div style={{ flex: 1 }}>
                     <ContactForm />
