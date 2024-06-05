@@ -36,4 +36,10 @@
 .project-links a {
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    color: #a993fe;
 }
