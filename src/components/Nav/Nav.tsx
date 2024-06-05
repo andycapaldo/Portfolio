@@ -13,6 +13,10 @@ function Nav() {
     setOpenMenu(!openMenu);
   }
 
+  const hireMeClick = () => {
+    window.location.href = 'mailto:andrewcapaldo23@gmail.com?subject=Job%20Opportunity&body=I%20would%20like%20to%20discuss%20a%20potential%20job%20opportunity%20with%20you.';
+  };
+
   return (
     <>
     <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
@@ -39,7 +43,7 @@ function Nav() {
           <li>
             <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact Me</Link>
           </li>
-          <button className="contact-btn" onClick={() => {}}>
+          <button className="contact-btn" onClick={hireMeClick}>
             Hire Me
           </button>
         </ul>
