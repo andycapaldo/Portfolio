@@ -10,8 +10,6 @@ import zengenda_five from '../assets/Zengenda/Zengenda_5.png';
 import cocktail_one from '../assets/CocktailLounge/CocktailLounge_1.png';
 import cocktail_two from '../assets/CocktailLounge/CocktailLounge_2.png';
 import cocktail_three from '../assets/CocktailLounge/CocktailLounge_3.png';
-import cocktail_four from '../assets/CocktailLounge/CocktailLounge_4.png';
-import cocktail_five from '../assets/CocktailLounge/CocktailLounge_5.png';
 
 export const SKILLS = [
     {
@@ -103,9 +101,7 @@ export const PROJECTS = [
         images: [
             cocktail_one, 
             cocktail_two, 
-            cocktail_three, 
-            cocktail_four, 
-            cocktail_five
+            cocktail_three,
         ],
         liveProject: "https://vermillion-pudding-29bfed.netlify.app/",
         gitHub: "https://github.com/andycapaldo/The-Cocktail-Lounge-React",

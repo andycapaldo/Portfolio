@@ -9,17 +9,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    background-color: #000;
+    height: 44rem;
+    width: auto;
+    background: rgba(22, 17, 47, 0.398);
 }
 
 .carousel-image {
-    width: 75%;
+    width: 100%;
     height: auto;
-    max-height: 100%;
-    object-fit: cover;
     border-radius: 0.65rem;
-    border: 1.5px solid #6852ba;
 }
 
 .arrow-left,
@@ -51,4 +49,25 @@
 
 .arrow-right {
     right: -3rem;
+}
+
+@media (max-width: 1024px) {
+    .carousel-image-container {
+        height: 32rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-image-container {
+        height: 45rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-image-container {
+        height: 35rem;
+    }
+    .carousel-image {
+        width: 65%;
+    }
 }
