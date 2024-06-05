@@ -33,6 +33,10 @@ function Nav() {
             smooth spy offset={-250} className="menu-item">Work Experience</Link>
           </li>
           <li>
+            <Link activeClass="active" to="projects"
+            smooth spy offset={-250} className="menu-item">Projects</Link>
+          </li>
+          <li>
             <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact Me</Link>
           </li>
           <button className="contact-btn" onClick={() => {}}>

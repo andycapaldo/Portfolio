@@ -28,7 +28,7 @@ function MobileNav({ isOpen, toggleMenu }) {
         if (isOpen) toggleMenu();
         setTimeout(() => {
             const element = document.getElementById(sectionId);
-            const yOffset = -175;
+            const yOffset = -240;
             const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
 
             smoothScroll(y, 1200);
@@ -56,9 +56,11 @@ function MobileNav({ isOpen, toggleMenu }) {
                             <a onClick={()=> handleScroll("work-exp")}className="menu-item">Work Experience</a>
                         </li>
                         <li>
+                            <a onClick={()=> handleScroll("projects")}className="menu-item">Projects</a>
+                        </li>
+                        <li>
                             <a onClick={()=> handleScroll("contact")}className="menu-item">Contact Me</a>
                         </li>
-
                         <button className="contact-btn" onClick={() => { } }>
                             Hire Me
                         </button>
