@@ -47,19 +47,19 @@ function MobileNav({ isOpen, toggleMenu }) {
 
                     <ul>
                         <li>
-                            <a onClick={()=> handleScroll("hero")} className="menu-item">Home</a>
+                            <a href='#hero' onClick={()=> handleScroll("hero")} className="menu-item">Home</a>
                         </li>
                         <li>
-                            <a onClick={()=> handleScroll("skills")} className="menu-item">Skills</a>
+                            <a href='#skills' onClick={()=> handleScroll("skills")} className="menu-item">Skills</a>
                         </li>
                         <li>
-                            <a onClick={()=> handleScroll("work-exp")}className="menu-item">Work Experience</a>
+                            <a href='#work-exp' onClick={()=> handleScroll("work-exp")}className="menu-item">Work Experience</a>
                         </li>
                         <li>
-                            <a onClick={()=> handleScroll("projects")}className="menu-item">Projects</a>
+                            <a href='#projects' onClick={()=> handleScroll("projects")}className="menu-item">Projects</a>
                         </li>
                         <li>
-                            <a onClick={()=> handleScroll("contact")}className="menu-item">Contact Me</a>
+                            <a href='#contact' onClick={()=> handleScroll("contact")}className="menu-item">Contact Me</a>
                         </li>
                         <button className="contact-btn" onClick={() => { } }>
                             Hire Me

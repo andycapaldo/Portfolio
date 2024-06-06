@@ -13,8 +13,8 @@ return (
             <div className='hero-content'>
                 <h2>Building Digital Experiences That Inspire</h2>
                 <p>
-                    Passionate Full-Stack Developer | Transforming Ideas into Seamless and 
-                    Visually Stunning Web Solutions
+                    Passionate Full-Stack Developer | Crafting Innovative and 
+                    Beautifully Designed Web Experiences
                 </p>
             </div>
 

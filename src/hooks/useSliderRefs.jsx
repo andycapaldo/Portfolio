@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 
 const useSliderRefs = (count) => {
     const refs = useRef([]);
