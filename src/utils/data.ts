@@ -16,10 +16,10 @@ export const SKILLS = [
         title: 'Frontend',
         icon: frontend,
         skills: [
-            { skill: "HTML5", percentage: "85%" },
+            { skill: "HTML5", percentage: "95%" },
             { skill: "CSS3 (Sass/SCSS)", percentage: "75%" },
             { skill: "JavaScript", percentage: "90%" },
-            { skill: "React.js", percentage: "85%" },
+            { skill: "React.js", percentage: "90%" },
         ],
     },
     {
@@ -35,25 +35,39 @@ export const SKILLS = [
         title: "Tools",
         icon: tools,
         skills: [
-            { skill: "Git & Github", percentage: "85%" },
-            { skill: "Visual Studio Code", percentage: "75%" },
-            { skill: "Webpack", percentage: "65%" },
-            { skill: "Postman", percentage: "70%" },
+            { skill: "Git & Github", percentage: "95%" },
+            { skill: "Airtable", percentage: "95%"},
+            { skill: "Visual Studio Code", percentage: "85%" },
+            { skill: "AWS", percentage: "80%" },
+            { skill: "Postman", percentage: "85%" },
         ],
     },
     {
         title: "Soft Skills",
         icon: softSkills,
         skills: [
-            { skill: "Problem-solving", percentage: "85%" },
-            { skill: "Collaboration", percentage: "90%" },
-            { skill: "Attention to Detail", percentage: "85%" },
-            { skill: "Adaptability", percentage: "90%" },
+            { skill: "Problem-solving", percentage: "100%" },
+            { skill: "Collaboration", percentage: "100%" },
+            { skill: "Attention to Detail", percentage: "100%" },
+            { skill: "Adaptability", percentage: "100%" },
         ],
     },
 ];
 
 export const WORK_EXPERIENCE = [
+    {
+        title: "Integrations Specialist at Payward",
+        date: "May 2024 - PRESENT",
+        responsibilities: [
+            "Led, developed and implemented solutions for various projects to map data points from our system to clients' systems, ensuring seamless integration and data transfer",
+            "Utilized various data formats including JSON, XML, SQL database, and CSV file types to meet client requirements.",
+            "Developed and maintained scalable Airtable relational databases using JavaScript to support a department of 800+ people",
+            "Automated dozens of processes by writing JavaScript scripts, saving hundreds of hours of time",
+            "Integrated multiple web services and external systems into Airtable, Slack, and Google Sheets, consolidating data sources into a single database",
+            "Collaborated with cross-functional teams to design and deliver new features and functionality",
+            "Design sleek and intuitive Airtable interfaces to increase user adoption and enhance the end-user experience",
+        ]
+    },
     {
         title: "Software Engineer at Co.Lab",
         date: "February 2024 - April 2024",
