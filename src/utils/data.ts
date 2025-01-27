@@ -96,7 +96,7 @@ export const WORK_EXPERIENCE = [
 export const PROJECTS = [
     {
         title: "Zengenda",
-        description: "An ultimate life organizer and motivational coach. An app that not only streamlines your tasks, but also fules your drive to conquer them. This app redefines overwhelming lists as a sequence of empowering steps, placing equal emphasis on mental wellness and productivity.",
+        description: "An ultimate life organizer and motivational coach. An app that not only streamlines your tasks, but also fuels your drive to conquer them. This app redefines overwhelming lists as a sequence of empowering steps, placing equal emphasis on mental wellness and productivity.",
         techStack: ["React Native", "TypeScript", "Node.js", "Expo", "Firebase"],
         images: [
             zengenda_one, 
