@@ -57,7 +57,7 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
     {
         title: "Integrations Specialist at Payward",
-        date: "May 2024 - PRESENT",
+        date: "May 2024 - March 2025",
         responsibilities: [
             "Led, developed and implemented solutions for various projects to map data points from our system to clients' systems, ensuring seamless integration and data transfer",
             "Utilized various data formats including JSON, XML, SQL database, and CSV file types to meet client requirements.",
